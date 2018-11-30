@@ -1,0 +1,24 @@
+数据库名称：shopping
+    商品列表：goodlist
+    订单表：orders
+    用户信息表：user_inf
+连接数据库接口：connect.php
+//----列表页-------
+查询商品列表接口(兼具分页功能)：01selectGoodlist.php
+商品列表排序接口(价格、人气)：02sortGoodlist.php
+
+//----详情页-------
+利用id查询商品列表接口：03idSelectGoodlist.php
+查询商品列表，插入订单表接口：04insertOrders.php
+
+//----购物车-------
+查询订单表接口：05selectOrders.php
+更新订单表产品数量接口：06updataOrders.php
+删除订单接口(单条、多条)：07deleteOrders.php
+
+//----注册页-------
+验证用户名：08checkName.php
+插入注册用户名和密码：09reg.php
+
+//----登录页-------
+查询验证用户名和密码：10login.php
